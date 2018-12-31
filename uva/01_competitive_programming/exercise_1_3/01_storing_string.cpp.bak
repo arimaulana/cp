@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string str;
+    string oke("Oke");
+
+    getline(cin, str);
+
+    cout << "String is : ";
+    cout << str << endl;
+
+    str.push_back('s');
+
+    cout << "String after push_back operation is : " << str << endl;
+
+    //str.pop_back();
+
+    //cout << "String after pop_back operation is : " << str << endl;
+
+    oke += str;
+    cout << oke << endl;
+    return 0;
+}
