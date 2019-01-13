@@ -3,14 +3,16 @@
 
 using namespace std;
 
+char s[100000001];
+
 int main() {
     int T;
-    char s[2001]; // because we aren't given the constraint limit of S digits, so assume it has max 2000 char
+    //char s[2001]; // because we aren't given the constraint limit of S digits, so assume it has max 2000 char
 
-    if (scanf("%d", &T) != 1) return 1;
+    scanf("%d", &T);
 
     while (T--) {
-        if (scanf("%s", s) != 1) return 1;
+        scanf("%s", s);
 
         int len = strlen(s);
 
