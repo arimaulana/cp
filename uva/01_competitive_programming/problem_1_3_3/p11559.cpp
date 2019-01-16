@@ -16,7 +16,7 @@ int main() {
             while (week--) {
                 if (scanf("%d", &a) != 1) {printf("W ERROR N = %d, H = %d, W = %d", N, H, W); return 1;}
 
-                int tmp_budget = a * p;
+                int tmp_budget = p * N;
                 //printf("TMP BUDGET = %d\n", tmp_budget);
                 //printf("a = %d, p = %d\n", a, p);
                 if (a >= N && tmp_budget <= B) {
