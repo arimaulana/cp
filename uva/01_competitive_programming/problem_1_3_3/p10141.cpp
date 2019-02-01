@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cstring>
 #include <string>
 #include <map>
 
@@ -27,7 +28,10 @@ int main() {
         int N = n;
         while (N--) {
             if (fgets(v, LEN, stdin) == NULL) {puts("error N"); return 1;}
-            
+            v[strcspn(v, "\n")] = 0;
+
+            //if (scanf("%[^\n]\n", v) != 1) {puts("error reading each requirement N"); return 1;}
+
             m.insert(psi(v, 1));
         }
 
@@ -36,6 +40,9 @@ int main() {
             float tmp_comp = 0;
             int total_met = 0;
             if (fgets(v, LEN, stdin) == NULL) {puts("error reading vendor"); return 1;}
+            v[strcspn(v, "\n")] = 0;
+            
+            //if (scanf("%[^\n]\n", v) != 1) {puts("error reading vendor"); return 1;}
             tmp_vendor = v;
 
             //printf("n = %d\tp = %d\tvendor = %sBefore d = %f\tr = %d\n", n, p, tmp_vendor.c_str(), d, r);
@@ -43,6 +50,9 @@ int main() {
             //printf("After, d = %f\tr = %d\n", d, r);
             while (r--) {
                 if (fgets(v, LEN, stdin) == NULL) {puts("error r"); return 1;}
+                v[strcspn(v, "\n")] = 0;
+
+                //if (scanf("%[^\n]\n", v) != 1) {puts("error r"); return 1;}
 
                 total_met = m[v] ? total_met + 1 : total_met;
             }
@@ -60,7 +70,7 @@ int main() {
             }
         }
 
-        printf("RFP #%d\n%s", i, vendor.c_str());
+        printf("RFP #%d\n%s\n", i, vendor.c_str());
         i++;
     }
 
