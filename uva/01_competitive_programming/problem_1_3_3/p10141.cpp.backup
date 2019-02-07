@@ -1,0 +1,68 @@
+#include <cstdio>
+#include <string>
+#include <map>
+
+using namespace std;
+typedef pair<string, int> psi;
+typedef map<string, int> msi;
+
+int main() {
+    int n, p;
+    int LEN = 82;
+
+    int i = 1;
+    while (scanf("%d %d\n", &n, &p) == 2, (n || p)) {
+        float comp = 0;
+        float price = 0;
+        string vendor;
+
+        if (i > 1) puts("");
+
+        msi m;
+        char v[LEN];
+        string tmp_vendor;
+
+        int N = n;
+        while (N--) {
+            if (fgets(v, LEN, stdin) == NULL) {puts("error N"); return 1;}
+
+            m.insert(psi(v, 1));
+        }
+
+        while (p--) {
+            int r = 0;
+            float d = 0;
+            
+            float tmp_comp = 0;
+            int total_met = 0;
+            
+            if (fgets(v, LEN, stdin) == NULL) {puts("error reading vendor"); return 1;}
+            tmp_vendor = v;
+
+            if (scanf("%f %d\n", &d, &r) != 2) {printf("error scanf, d = %f\t, r = %d\n", d, r); return 1;}
+
+            while (r--) {
+                if (fgets(v, LEN, stdin) == NULL) {puts("error r"); return 1;}
+
+                total_met = m[v] ? total_met + 1 : total_met;
+            }
+
+            tmp_comp = (float)total_met / (float)n;
+
+            if (vendor == "" || tmp_comp > comp) {
+                comp = tmp_comp;
+                vendor = tmp_vendor;
+                price = d;
+            } else if (tmp_comp == comp && d < price) {
+                vendor = tmp_vendor;
+                price = d;
+            }
+        }
+
+        printf("RFP #%d\n%s", i, vendor.c_str());
+        i++;
+    }
+
+    return 0;
+}
+
