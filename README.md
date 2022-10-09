@@ -45,3 +45,5 @@ the more test case the more your code fulfilled the required constraint.
     - [x] 189 - rotate array
 - [x] Day #2: C++ Day
     - [x] 26 - remove duplicate from sorted array
+- [x] Day #3: Go Day
+    - [x] 2177 - find three consecutive integers that sum to a given number
