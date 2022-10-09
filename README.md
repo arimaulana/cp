@@ -41,9 +41,9 @@ the more test case the more your code fulfilled the required constraint.
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
-- [x] Day #1: Py Day
-    - [x] 189 - rotate array
-- [x] Day #2: C++ Day
-    - [x] 26 - remove duplicate from sorted array
 - [x] Day #3: Go Day
     - [x] 2177 - find three consecutive integers that sum to a given number
+- [x] Day #2: C++ Day
+    - [x] 26 - remove duplicate from sorted array
+- [x] Day #1: Py Day
+    - [x] 189 - rotate array
