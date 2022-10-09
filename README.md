@@ -2,17 +2,19 @@
 
 1. Go to the problem directory, i.e. uva/{chapter}/{problemset}, leetcode/problems/{problem}
 2. (optional) compile solution
-    - c/c++, `./compile.sh {problem}.cpp`
-    - go,
-    - rust,
-    - java,
+    - c, `./compile.sh {problem}.cpp`
+    - c++, `g++ solution.cpp -std=c++17 -pthread -O2`
+    - go, `go build {problem}.go`
+    - rust, `rustc -C opt-level=3 -o {problem} {problem}.rs`
+    - java, `javac Solution.java`
 3. run solution
-    - c/c++, `./a.out < {problem}.in > {problem}.output`
-    - go,
-    - rust,
-    - java,
-    - python,
-    - typescript,
+    - c, `./a.out < {problem}.in > {problem}.output`
+    - c++, `./a.out < problem.in > problem.output`
+    - go, `./{problem} < {problem}.in > {problem}.output`
+    - rust, `./{problem} < {problem}.in > {problem}.output`
+    - java, `java -Xms896m -Xmx896m -Xss64m -XX:+UseSerialGC Solution < {problem}.in > {problem}.output`
+    - python, `python3 {problem}.py < {problem}.in > {problem}.output`
+    - typescript, `ts-node {problem}.ts < {problem}.in > {problem}.output`
 4. run `diff -s {problem}.out {problem}.output`
 
 if from step 4 u got the identical file, then the problem already cover the test case given ({problem}.in).
@@ -34,12 +36,12 @@ the more test case the more your code fulfilled the required constraint.
     - C++ day (saturday)
     - C day (sunday)
 
-### Task Solved
+### Unsolved Task
 - [ ] 189 - rotate array
-    - [x] linear time O(n) with additional space O(n)
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
 - [x] Day #1: Py Day
     - [x] 189 - rotate array
-
+- [x] Day #2: C++ Day
+    - [x] 26 - remove duplicate from sorted array
