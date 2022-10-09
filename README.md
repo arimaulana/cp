@@ -1,3 +1,16 @@
+### Format Directory
+- {platform}
+    - {problem-set}
+        - {problem-number}-{problem-name}
+- {platform}
+    - {chapter}
+        - {problem-set}
+            - {problem-number}-{problem-name}
+
+i.e. it could be either
+- leetcode/problems/189-rotate-array
+- uva/ch01-cp/problem-1.3.3/p12577-hajj-e-akbar
+
 ### How to re-run the solution
 
 1. Go to the problem directory, i.e. uva/{chapter}/{problemset}, leetcode/problems/{problem}
