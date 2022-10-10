@@ -54,6 +54,8 @@ the more test case the more your code fulfilled the required constraint.
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
+- [x] Day #4: Go Day
+    - [x] 4 - median of two sorted arrays
 - [x] Day #3: C Day
     - [x] 2177 - find three consecutive integers that sum to a given number
 - [x] Day #2: C++ Day
