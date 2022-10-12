@@ -54,6 +54,11 @@ the more test case the more your code fulfilled the required constraint.
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
+- [ ] Day #6: Java Day
+    - [ ] 1328 - break a palindrome
+    - [ ] not picked yet
+- [ ] Day #5: Ts Day
+    - [ ] 1328 - break a palindrome
 - [x] Day #4: Go Day
     - [x] 4 - median of two sorted arrays
 - [x] Day #3: C Day
