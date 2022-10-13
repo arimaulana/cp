@@ -21,27 +21,16 @@ char *break_palindrome(char *p) {
     while (*(p + n++) != '\0');
     n--;
 
-    int s = 0;
-    int e = n - 1;
-    int diff_idx = -1;
-    char tmp;
-    while (s < e) {
-        char c = *(p + s);
-        
-        if (c <= 97) {
-            s++;
-            e--;
-            continue;
-        }
+    if (n == 1) return "";
 
-        tmp = c - 1;
-        diff_idx = s;
-        break;
+    int mid = n >> 1;
+    for (int i = 0; i < mid; i++) {
+        if (p[i] == 'a') continue;
+        p[i] = 'a';
+        return p;
     }
 
-    if (diff_idx < 0) return "";
-
-    *(p + diff_idx) = tmp;
+    p[n - 1] = 'b';
     return p;
 }
 
