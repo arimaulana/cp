@@ -60,11 +60,10 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
 ### Unsolved Task
 - [ ] 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
-- [ ] 1328 - break a palindrome
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
-- [ ] Day #7: Rust Day
-    - [ ] pick problem first
+- [x] Day #7: Rust Day
+    - [x] 1328 - break a palindrome (from day #5)
 - [x] Day #6: Java Day
     - [x] 9 - palindrome number
 - [x] Day #5: Ts Day
