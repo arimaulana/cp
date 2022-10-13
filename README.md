@@ -33,6 +33,14 @@ i.e. it could be either
 if from step 4 u got the identical file, then the problem already cover the test case given ({problem}.in).
 the more test case the more your code fulfilled the required constraint.
 
+Tips:
+- add below lines to your shell rc file, useful for compiling the solution
+alias cp-java="java -Xms896m -Xmx896m -Xss64m -XX:+UseSerialGC"
+alias cp-rust="rustc -C opt-level=3 -o solution"
+alias cp-cpp="g++ -std=c++17 -pthread -O2 -o solution"
+alias cp-c="gcc -pthread -lm -O2 -o solution"
+
+
 ### Target
 - compete in codejam and included in 2nd round for codejam 2023
 - fluently coding in 7 different language specifically for competitive programming (c/c++, go, rust, ts, java, python)
