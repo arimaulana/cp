@@ -52,13 +52,15 @@ the more test case the more your code fulfilled the required constraint.
 ### Unsolved Task
 - [ ] 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
+- [ ] 1328 - break a palindrome
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
-- [ ] Day #6: Java Day
-    - [ ] 1328 - break a palindrome
-    - [ ] not picked yet
-- [ ] Day #5: Ts Day
-    - [ ] 1328 - break a palindrome
+- [ ] Day #7: Rust Day
+    - [ ] pick problem first
+- [x] Day #6: Java Day
+    - [x] 9 - palindrome number
+- [x] Day #5: Ts Day
+    - [ ] 1328 - break a palindrome (still got WA)
 - [x] Day #4: Go Day
     - [x] 4 - median of two sorted arrays
 - [x] Day #3: C Day
