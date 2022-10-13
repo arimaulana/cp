@@ -50,7 +50,7 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
 - complete 100 days challenge of solving problem (if no any urgent needed that require me to focus on the situation)
 - use different lang in each day, but still can use other lang if stuck on the problem like problem that require to use big int, its hard to implement in c, and more easy to use ts or java, or in the case that the algo was right but still got TLE due to lang usage (ts is chance to get TLE is higher than c/c++).
     - Go day (monday)
-    - Ts day (tuesday)
+    - Ts day (tuesday) (can use js too)
     - Java day (wednesday)
     - Rust day (thursday)
     - Py day (friday)
