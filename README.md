@@ -58,22 +58,43 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
     - C++ day (saturday)
     - C day (sunday)
 
+### Platform
+- LC `LeetCode`
+    - P `Problem`
+    - WC `Weekly Contest`
+    - BC `Biweekly Contest`
+- KS `KickStart`
+    - YYYY-N (Year-Round format, i.e. 2022G)
+- CJ `CodeJam`
+    - YYYY-NQ (Y = Year, N = Round and Optional Q for Sub Round format, i.e. 2022-QR, 2022-1A, 2022-3)
+- UVA `UVA`
+    - P `Problem`
+- KAT `Kattis`
+    - P `Problem`
+
 ### Unsolved Task
-- [ ] 189 - rotate array
+- [ ] KS - 2022-G - happy subarray
+    - [ ] test set 2, still got TLE
+- [ ] LC - 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
-- [x] Day #7: Rust Day
-    - [x] 1328 - break a palindrome (from day #5)
-- [x] Day #6: Java Day
-    - [x] 9 - palindrome number
-- [x] Day #5: Ts Day
-    - [ ] 1328 - break a palindrome (still got WA)
-- [x] Day #4: Go Day
-    - [x] 4 - median of two sorted arrays
-- [x] Day #3: C Day
-    - [x] 2177 - find three consecutive integers that sum to a given number
-- [x] Day #2: C++ Day
-    - [x] 26 - remove duplicate from sorted array
-- [x] Day #1: Py Day
-    - [x] 189 - rotate array
+- [x] Day #009:
+    - [x] KS - 2022-G - happy subarray (test set 1)
+    - [x] KS - 2022-G - walktober
+- [ ] Day #008:
+    - [ ] // pick a problem first
+- [x] Day #007: Rust Day
+    - [x] LC - 1328 - break a palindrome (from day #5)
+- [x] Day #006: Java Day
+    - [x] LC - 9 - palindrome number
+- [x] Day #005: Ts Day
+    - [ ] LC - 1328 - break a palindrome (still got WA)
+- [x] Day #004: Go Day
+    - [x] LC - 4 - median of two sorted arrays
+- [x] Day #003: C Day
+    - [x] LC - 2177 - find three consecutive integers that sum to a given number
+- [x] Day #002: C++ Day
+    - [x] LC - 26 - remove duplicate from sorted array
+- [x] Day #001: Py Day
+    - [x] LC - 189 - rotate array
