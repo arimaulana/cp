@@ -73,17 +73,21 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
     - P `Problem`
 
 ### Unsolved Task
+- [ ] LC - P - 1766 - tree of coprimes
+- [ ] LC - P - 108 - convert sorted array to binary search tree
 - [ ] KS - 2022-G - happy subarray
     - [ ] test set 2, still got TLE
 - [ ] LC - P - 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
+- [ ] Day #010:
+    - [ ] LC - P - 1766 - tree of coprimes
 - [x] Day #009:
     - [x] KS - 2022-G - happy subarray (test set 1)
     - [x] KS - 2022-G - walktober
 - [ ] Day #008:
-    - [ ] // pick a problem first
+    - [ ] LC - P - 108 - convert sorted array to binary search tree
 - [x] Day #007:
     - [x] LC - P - 1328 - break a palindrome (from day #5)
 - [x] Day #006: Java Day
