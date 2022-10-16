@@ -53,7 +53,7 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
     - Go day (monday)
     - Ts day (tuesday) (can use js too)
     - Java day (wednesday)
-    - Rust day (thursday)
+    - Rust day (thursday) (right now skip it, just use another lang, use and learn rust if and only if condition already stable)
     - Py day (friday)
     - C++ day (saturday)
     - C day (sunday)
@@ -64,7 +64,7 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
     - WC `Weekly Contest`
     - BC `Biweekly Contest`
 - KS `KickStart`
-    - YYYY-N (Year-Round format, i.e. 2022G)
+    - YYYY-N (Year-Round format, i.e. 2022-G)
 - CJ `CodeJam`
     - YYYY-NQ (Y = Year, N = Round and Optional Q for Sub Round format, i.e. 2022-QR, 2022-1A, 2022-3)
 - UVA `UVA`
@@ -75,7 +75,7 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
 ### Unsolved Task
 - [ ] KS - 2022-G - happy subarray
     - [ ] test set 2, still got TLE
-- [ ] LC - 189 - rotate array
+- [ ] LC - P - 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
 
 ### 100 Days Challenge - Start at Friday, 7 Oct '22
@@ -84,17 +84,17 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
     - [x] KS - 2022-G - walktober
 - [ ] Day #008:
     - [ ] // pick a problem first
-- [x] Day #007: Rust Day
-    - [x] LC - 1328 - break a palindrome (from day #5)
+- [x] Day #007:
+    - [x] LC - P - 1328 - break a palindrome (from day #5)
 - [x] Day #006: Java Day
-    - [x] LC - 9 - palindrome number
-- [x] Day #005: Ts Day
-    - [ ] LC - 1328 - break a palindrome (still got WA)
+    - [x] LC - P - 9 - palindrome number
+- [x] Day #005:
+    - [ ] LC - P - 1328 - break a palindrome (still got WA)
 - [x] Day #004: Go Day
-    - [x] LC - 4 - median of two sorted arrays
-- [x] Day #003: C Day
-    - [x] LC - 2177 - find three consecutive integers that sum to a given number
-- [x] Day #002: C++ Day
-    - [x] LC - 26 - remove duplicate from sorted array
-- [x] Day #001: Py Day
-    - [x] LC - 189 - rotate array
+    - [x] LC - P - 4 - median of two sorted arrays
+- [x] Day #003:
+    - [x] LC - P - 2177 - find three consecutive integers that sum to a given number
+- [x] Day #002:
+    - [x] LC - P - 26 - remove duplicate from sorted array
+- [x] Day #001:
+    - [x] LC - P - 189 - rotate array
