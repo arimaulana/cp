@@ -5,7 +5,7 @@ using namespace std;
 #define MP make_pair
 
 typedef pair<int, int> pii;
-typedef unordered_map<pii, int> umpii;
+typedef map<pii, int> mpii;
 
 int main() {
     int T;
@@ -24,12 +24,13 @@ int main() {
             if (scanf("%d%c", &arr[n], &c) != 2) return 1;
         }
 
-        umpii memo;
+        mpii memo;
         int sum = 0;
         int tmp = def_tmp;
         int L = 0;
         int R = N - 1;
         for (int n = 0; n < N; n++) {
+            printf("n = %d, L = %d, R = %d, memo size: %lu\n", n, L, R, memo.size());
             if (memo.find(MP(L, R)) != memo.end()) {
                 sum += memo[MP(L, R)];
                 tmp = def_tmp;
@@ -40,7 +41,7 @@ int main() {
 
             if (tmp + arr[n] < def_tmp) {
                 tmp = def_tmp;
-                R = n;
+                R = R == n ? N - 1 : n;
                 n = L++;
                 printf("n = %d\tL = %d\n", n + 1, L);
                 continue;
