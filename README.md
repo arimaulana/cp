@@ -80,7 +80,9 @@ alias cp-c="gcc -pthread -lm -O2 -o solution"
 - [ ] LC - P - 189 - rotate array
     - [ ] linear time O(n) without additional space O(1)
 
-### 100 Days Challenge - Start at Friday, 7 Oct '22
+### 100 Days Challenge
+- [x] Day #011:
+    - [x] LC - P - 205 - isomorphic strings
 - [ ] Day #010:
     - [ ] LC - P - 1766 - tree of coprimes
 - [x] Day #009:
